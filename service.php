@@ -17,70 +17,69 @@ include 'navbarpages.php';
    body {
     font-family: "Space Mono", monospace;  margin: 0;
   padding: 0;
-  background-color: #f7f7f7; /* Changed background color to a light gray */
-  color: #333; /* Changed text color to a dark gray */
-  overflow-x: hidden; /* To prevent horizontal scrolling */
+  background-color: #f7f7f7;
+  color: #333; 
+  overflow-x: hidden;
 }
 
 .container {
-  max-width: 800px; /* Changed width to a max-width to make it more responsive */
-  margin: 40px auto; /* Added more margin to create space around the container */
-  padding: 30px; /* Increased padding to create more space inside the container */
-  background-color: #fff; /* Changed background color to white */
-  border-radius: 10px; /* Added border radius to create a soft corner effect */
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Changed box shadow to a lighter gray */
-}
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px; 
+  background-color: #fff; 
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
 
 h1, h2, h3 {
-  font-weight: 500; /* Changed font weight to 500 to make headings more subtle */
-  color: #333; /* Changed text color to a dark gray */
-  margin-bottom: 10px; /* Added margin bottom to create space between headings and content */
+  font-weight: 500; 
+  color: #333;
+  margin-bottom: 10px; 
 }
 
 h3 {
-  background-color: transparent; /* Removed background color to make it more minimalist */
-  padding: 0; /* Removed padding to make it more minimalist */
-  border-radius: 0; /* Removed border radius to make it more minimalist */
+  background-color: transparent;
+  padding: 0;
+  border-radius: 0;
 }
 
 .section {
-  margin-bottom: 40px; /* Increased margin bottom to create more space between sections */
-  background-color: #fff; /* Changed background color to white */
-  padding: 30px; /* Increased padding to create more space inside the section */
-  border-radius: 10px; /* Added border radius to create a soft corner effect */
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Changed box shadow to a lighter gray */
+  margin-bottom: 40px; 
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
 }
 
 .service {
-  margin-bottom: 20px; /* Decreased margin bottom to make it more compact */
+  margin-bottom: 20px; 
 }
 
 .service p {
-  margin: 0; /* Removed margin to make it more minimalist */
+  margin: 0;
   border-top: 1px solid black;}
 
 .dropdown {
-  width: 100%; /* Removed margin to make it more compact */
-  text-align: center; /* Removed margin to makaze it more compact */
+  width: 100%; 
+  text-align: center; 
 }
 
 .dropdown select {
-  padding: 12px 20px; /* Decreased padding to make it more compact */
-  font-size: 16px; /* Decreased font size to make it more compact */
-  border: none; /* Removed border to make it more minimalist */
-  border-radius: 5px; /* Decreased border radius to make it more compact */
-  background-color: #fff; /* Changed background color to white */
-  color: #333; /* Changed text color to a dark gray */
-  cursor: pointer; /* Removed appearance to make it more minimalist */
+  padding: 12px 20px; 
+  font-size: 16px; 
+  border: none; 
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333; 
+  cursor: pointer; 
 }
 
 .blurred-block {
-  background-color: rgba(255, 255, 255, 0.5); /* Changed background color to a lighter gray */
-  border-radius: 10px; /* Decreased border radius to make it more compact */
-  backdrop-filter: blur(5px); /* Decreased blur effect to make it more subtle */
-  padding: 20px; /* Decreased padding to make it more compact */
-  margin-bottom: 30px; /* Decreased margin bottom to make it more compact */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Decreased box shadow to make it more subtle */
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px; 
+  backdrop-filter: blur(5px);
+  padding: 20px; 
+  margin-bottom: 30px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
 .background-clip {
