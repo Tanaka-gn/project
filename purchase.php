@@ -27,7 +27,7 @@ if (isset($_GET['product_id'])) {
     if ($result_check_product->num_rows > 0) {
         // Fetch the product details
         $product = $result_check_product->fetch_assoc();
-        $cost = $product['cost']; // Assuming 'cost' is a column in your products table
+        $cost = $product['cost']; 
 
         // Define status for adding to cart
         $status = 'added to cart';
@@ -36,11 +36,11 @@ if (isset($_GET['product_id'])) {
         $sql = "INSERT INTO cart (user_id, product_id, cost, status) VALUES ('$user_id', '$product_id', '$cost', '$status')";
 
         if ($conn->query($sql) === TRUE) {
-            // If insertion is successful, redirect user to the same page to refresh
+            //  redirect user to the same page to refresh
             header("Location: purchase.php");
             exit;
         } else {
-            // If insertion fails, display error message
+            // display error message
             echo "Error: " . $sql . "<br>" . $conn->error;
         }
     } else {
@@ -58,11 +58,11 @@ if (isset($_GET['remove_product_id'])) {
     $sql_remove = "DELETE FROM cart WHERE user_id = '$user_id' AND product_id = '$product_id'";
 
     if ($conn->query($sql_remove) === TRUE) {
-        // If deletion is successful, redirect user to the same page to refresh
+        //redirect user to the same page to refresh
         header("Location: purchase.php");
         exit;
     } else {
-        // If deletion fails, display error message
+        //display error message
         echo "Error: " . $sql_remove . "<br>" . $conn->error;
     }
 }
@@ -170,7 +170,7 @@ include 'navbarpages.php';
     ?>
 
 <?php
-    // Include th       services display and add-to-cart functionality
+    // Include the services display and add-to-cart functionality
     include 'servicepurchase.php';                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
     ?>
     <h2>Your Cart </h2>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
@@ -227,7 +227,7 @@ if ($cart_result->num_rows > 0) {
   // Find the button element by its id
   var checkoutBtn = document.getElementById("checkoutbtn");
 
-  // Add a click event listener to the button
+  
   checkoutBtn.addEventListener("click", function() {
     // Redirect the user to checkout.php
     window.location.href = "checkout.php";
