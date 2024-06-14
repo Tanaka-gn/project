@@ -21,7 +21,7 @@
     .logo img {
         display: block;
         height: auto;
-        width: 100px; /* Adjust width as per your logo image width */
+        width: 100px; 
     }
 
     nav {
@@ -42,8 +42,8 @@
         display: flex;
         justify-content: flex-end;
         gap: 20px;
-        margin: 0; /* Add margin: 0 to remove default ul margin */
-        padding: 0; /* Add padding: 0 to remove default ul padding */
+        margin: 0;
+        padding: 0; 
     }
 
     nav ul li {
@@ -51,31 +51,30 @@
         font-size: 1.2em;
         cursor: pointer;
         transition: color 0.3s;
-        color: #333; /* Dark gray text */
+        color: #333; 
     }
 
     nav ul li:hover {
-        color: #666; /* Darker gray text on hover */
+        color: #666; 
     }
 
     .nav-btn {
-        background: #333; /* Dark gray background */
-        color: #fff; /* White text */
+        background: #333;
+        color: #fff;
         font-size: 14px;
         padding: 10px 20px;
         border: none;
-        border-radius: 10px; /* Slightly rounded corners */
+        border-radius: 10px; /*  rounded corners */
         cursor: pointer;
         transition: background-color 0.3s;
     }
 
     .nav-btn:hover {
-        background-color: #444; /* Darker gray background on hover */
-    }
+        background-color: #444; 
 </style>
 
 <script>
-    // Ensure the DOM has loaded before running the script
+
     document.addEventListener('DOMContentLoaded', function () {
         // Add event listeners to the navigation items
         const navItems = document.querySelectorAll('nav ul li');
