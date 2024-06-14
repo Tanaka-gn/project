@@ -30,33 +30,33 @@ if ($result->num_rows > 0) {
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4; /* slightly lighter gray background */
+            background-color: #f4f4f4; 
             margin: 0;
             padding: 0;
-            color: #333; /* dark gray text for better readability */
+            color: #333; 
         }
 
         .container {
             max-width: 800px;
             margin: 40px auto;
             padding: 20px;
-            background-color: #fff; /* white background for main container */
-            border: 1px solid #e0e0e0; /* very light gray border */
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* subtle shadow */
-            border-radius: 10px; /* rounded corners for the container */
+            background-color: #fff; 
+            border: 1px solid #e0e0e0; 
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+            border-radius: 10px;
         }
 
         h2 {
-            color: #444; /* slightly lighter dark gray text */
+            color: #444; 
             margin-top: 0;
-            font-size: 1.8em; /* larger font size for heading */
-            border-bottom: 2px solid #8B0A1A; /* maroon bottom border */
+            font-size: 1.8em; 
+            border-bottom: 2px solid #8B0A1A; 
             padding-bottom: 10px;
         }
 
         .col-100, .col-50 {
-            background-color: #fff; /* white background */
-            border: 1px solid #e0e0e0; /* very light gray border */
+            background-color: #fff; 
+            border: 1px solid #e0e0e0;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* subtle shadow */
             border-radius: 10px; /* rounded corners */
             margin-bottom: 20px; /* spacing between sections */
@@ -65,23 +65,23 @@ if ($result->num_rows > 0) {
 
         #cartItems {
             padding: 20px;
-            border-bottom: 1px solid #e0e0e0; /* very light gray border */
+            border-bottom: 1px solid #e0e0e0; 
         }
 
         #cartTotal {
             padding: 20px;
-            background-color: #f4f4f4; /* slightly lighter gray background */
-            border-top: 1px solid #e0e0e0; /* very light gray border */
+            background-color: #f4f4f4;
+            border-top: 1px solid #e0e0e0; 
         }
 
         #cartTotal p {
             font-weight: bold;
-            color: #8B0A1A; /* maroon text */
-            font-size: 1.2em; /* larger font size for total */
+            color: #8B0A1A;
+            font-size: 1.2em; 
         }
 
         .col-50 {
-            width: calc(50% - 10px); /* two columns with gap */
+            width: calc(50% - 10px); 
         }
 
         .two-columns, .box-container {
@@ -93,18 +93,18 @@ if ($result->num_rows > 0) {
         label {
             display: block;
             margin-bottom: 10px;
-            color: #555; /* medium gray text */
-            font-size: 1em; /* standardize font size for labels */
+            color: #555; 
+            font-size: 1em; 
         }
 
         input[type="text"], input[type="number"], select, #paymentMethod {
             width: 100%;
             padding: 10px;
             margin-bottom: 20px;
-            border: 1px solid #e0e0e0; /* very light gray border */
+            border: 1px solid #e0e0e0; 
             border-radius: 5px;
-            background-color: #fafafa; /* light gray background for inputs */
-            font-size: 1em; /* standardize font size for inputs */
+            background-color: #fafafa; 
+            font-size: 1em;
         }
 
         input[type="checkbox"] {
@@ -116,18 +116,18 @@ if ($result->num_rows > 0) {
         }
 
         .btn {
-            background-color: #8B0A1A; /* maroon background */
-            color: #fff; /* white text */
+            background-color: #8B0A1A;
+            color: #fff;
             padding: 10px 20px;
             border: none;
             border-radius: 5px;
             cursor: pointer;
-            font-size: 1em; /* standardize font size for buttons */
+            font-size: 1em; 
             transition: background-color 0.3s ease; /* smooth transition */
         }
 
         .btn:hover {
-            background-color: #660000; /* darker maroon background */
+            background-color: #660000; 
         }
 
         /* Responsive design */
@@ -287,8 +287,7 @@ if ($result->num_rows > 0) {
         
         if (valid) {
             alert('Form submitted successfully!');
-            // Add form submission logic here, such as sending data to a server.
-        }
+                    }
         
         return valid;
     }
