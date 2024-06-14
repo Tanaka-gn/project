@@ -22,8 +22,8 @@ nav {
     left: 0;
     width: 100%;
     padding: 5px;
-    background-color: #ffffff; /* Light gray background */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: #ffffff; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
     z-index: 10;
     display: flex;
     justify-content: space-between;
@@ -38,7 +38,7 @@ nav {
 .logo img {
     display: block;
     height: auto;
-    width: 100px; /* Adjust width as per your logo image width */
+    width: 100px; 
 }
 
 .menu-toggle {
@@ -68,27 +68,26 @@ nav ul li {
     font-size: 1.2em;
     cursor: pointer;
     transition: color 0.3s;
-    color: #333; /* Dark gray text */
+    color: #333; 
 }
 
 nav ul li:hover {
-    color: #666; /* Darker gray text on hover */
+    color: #666;
 }
 
 .nav-btn {
-    background: #333; /* Dark gray background */
-    color: #fff; /* White text */
+    background: #333; 
+    color: #fff; 
     font-size: 14px;
     padding: 10px 20px;
     border: none;
-    border-radius: 10px; /* Slightly rounded corners */
+    border-radius: 10px;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
 .nav-btn:hover {
-    background-color: #444; /* Darker gray background on hover */
-}
+    background-color: #444; 
 
 @media (max-width: 768px) {
     .menu-toggle {
@@ -100,7 +99,7 @@ nav ul li:hover {
         top: 60px;
         left: 0;
         width: 100%;
-        background-color: #ffffff; /* Light gray background */
+        background-color: #ffffff; 
         flex-direction: column;
         align-items: center;
         display: none;
@@ -128,11 +127,11 @@ nav ul li:hover {
     align-items: center;
     text-align: center;
     position: relative;
-    overflow: hidden; /* Ensure that the background clip does not overflow the hero section */
+    overflow: hidden; 
 }
 
 .background-clip {
-    position: absolute; /* Change to absolute to make it relative to .hero */
+    position: absolute; 
     top: 0;
     left: 0;
     width: 100%;
@@ -149,14 +148,14 @@ nav ul li:hover {
     width: auto;
     height: auto;
     transform: translate(-50%, -50%);
-    object-fit: cover; /* Ensure the video covers the area while maintaining aspect ratio */
+    object-fit: cover; 
 }
 
 @media (max-width: 768px) {
     .background-clip .video {
         width: 100%;
         height: auto;
-        transform: none; /* Reset transform to avoid issues on smaller screens */
+        transform: none; 
         top: 0;
         left: 0;
     }
@@ -177,10 +176,10 @@ nav ul li:hover {
 
 /* About Section */
 .about {
-    position: relative; /* Important for the background positioning */
+    position: relative;
     padding: 100px 5%;
     text-align: center;
-    overflow: hidden; /* Ensures no overflow issues with absolute positioning */
+    overflow: hidden; 
 }
 
 .bgimage2 {
@@ -192,7 +191,7 @@ nav ul li:hover {
     background: url('hbgimage.jpg') no-repeat center center;
     background-size: cover;
     opacity: 0.8;
-    z-index: -1; /* Ensure the background image stays behind the content */
+    z-index: -1; 
     transform: rotate(180deg);
 }
 
@@ -201,7 +200,7 @@ nav ul li:hover {
     font-size: 2.5rem;
     margin-bottom: 40px;
     color: #151515;
-    z-index: 1; /* Ensure text stays above the background */
+    z-index: 1; 
 }
 
 .about p {
@@ -239,7 +238,7 @@ nav ul li:hover {
     justify-content: center;
     background: rgba(0, 0, 0, 0.8);
     z-index: 20;
-    display: none; /* Hidden by default */
+    display: none; 
 }
 
 .form {
@@ -405,23 +404,23 @@ nav ul li:hover {
 
 /* Scroll to Top Button */
 #myBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 30px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: red; /* Set a background color */
-    color: white; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
+    display: none; 
+    position: fixed; 
+    bottom: 30px;
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none;
+    background-color: red; 
+    color: white;
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 10px; 
+    font-size: 18px; 
 }
 
 #myBtn:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
+    background-color: #555; 
 }
 
 /* Form Styles */
@@ -492,22 +491,22 @@ nav ul li:hover {
 /* Style for the logout button */
 .logout {
     background-color: #ff4b5c; /* Red background */
-    color: white; /* White text */
-    border: none; /* Remove border */
-    padding: 10px 20px; /* Add some padding */
-    text-align: center; /* Center text */
-    text-decoration: none; /* Remove underline */
-    display: inline-block; /* Make it an inline-block element */
-    font-size: 16px; /* Set font size */
-    margin: 4px 2px; /* Add some margin */
-    cursor: pointer; /* Add a pointer cursor on hover */
-    border-radius: 12px; /* Rounded corners */
-    transition-duration: 0.4s; /* Animation duration for hover effect */
+    color: white;
+    border: none; 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 12px; 
+    transition-duration: 0.4s; 
 }
 
 /* Add a hover effect */
 .logout:hover {
-    background-color: white; /* Change background to white */
-    color: #ff4b5c; /* Change text color to red */
-    border: 2px solid #ff4b5c; /* Add red border */
+    background-color: white; 
+    color: #ff4b5c;
+    border: 2px solid #ff4b5c;
 }
