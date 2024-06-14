@@ -11,7 +11,7 @@ if (isset($_POST['signupForm'])) {
     $province = $_POST['province'];
  
 
-    // Sanitize inputs to prevent SQL injection
+    //  inputs to prevent SQL injection
     $name = $conn->real_escape_string($name);
     $email = $conn->real_escape_string($email);
       $password = $conn->real_escape_string($password);
